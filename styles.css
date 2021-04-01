@@ -82,7 +82,7 @@ form{
 }
 
 form input{
-    background: url(/assets/searchicon.png) no-repeat;
+    background: url(assets/searchicon.png) no-repeat;
     background-position: 10px 8px;
     display: block;
     position: relative;
