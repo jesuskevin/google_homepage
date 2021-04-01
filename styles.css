@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header styles */
+
+header{
+    width: 100%;
+    height: auto;
+    padding-bottom: 75px;
+}
+
+nav{
+    /* overflow: hidden; */
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+nav ul{
+    margin-right: 10px;
+}
+
+nav ul li{
+    margin: 10px;
+    float: right;
+    display: inline;
+}
+
+li a{
+    position: relative;
+    top: 5px;
+    color: #000;
+    text-decoration: none;
+}
+
+nav ul li:nth-child(3):hover{
+    text-decoration: underline;
+}
+
+nav ul li:nth-child(4):hover{
+    text-decoration: underline;
+}
+
+.btn-nav{
+    position: relative;
+    top: 5px;
+    background-color: #2b7de9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    font-size: 1.2em;
+}
+
+.btn-nav:hover{
+    background-color: #5193f0;
+}
+
+.bi-grid-3x3-gap{
+    position: relative;
+    top: 2px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* Header styles ends */
+
+/* Main styles */
+
+main{
+    position: relative;
+    top: 200px;
+    /* border: 1px solid red; */ /*Hechizo simple pero poderoso jaja xd*/
+    text-align: center;
+}
+
+form{
+    margin: 10px;
+}
+
+form input{
+    background: url(/assets/searchicon.png) no-repeat;
+    background-position: 10px 8px;
+    display: block;
+    position: relative;
+    left: 37%;
+    margin-bottom: 30px;
+    padding: 10px 0 10px 40px;
+    outline: none;
+    border: 1px solid #ababab;
+    width: 25%;
+    border-radius: 25px;
+}
+
+form a{
+    text-decoration: none;
+    color: #1f2024;
+    background-color: #f8f9fb;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+form a:hover{
+    border: 1px solid #dcdcde;
+}
+
+form a:active{
+    border: 1px solid #2b7de9;
+}
+
+/* Main styles ends */
+
+/* Footer styles */
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+
+.country{
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e6e6e6;
+    text-align: left;
+    padding: 15px 5px 15px 5px;
+}
+
+.country p{
+    margin-left: 15px;
+    color: gray;
+}
+
+.links{
+    display: flex;
+    background-color: #f2f2f2;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+div ul li{
+    display: inline;
+    margin: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+div ul li:hover{
+    text-decoration: underline;
+}
+/* Footer styles ends */
